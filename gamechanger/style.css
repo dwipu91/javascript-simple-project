@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "General Sans";
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#mini-circle {
+  height: 0.8rem;
+  width: 0.8rem;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 9999;
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
+}
+/*  */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  width: 100%;
+  padding: 0 3rem;
+  background-color: black;
+}
+#hero {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+#nav {
+  width: 100%;
+  padding: 3rem 0;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+#heading {
+  margin-top: 1.5rem;
+}
+#heading h1 {
+  margin-left: 2.5rem;
+  opacity: 0.7;
+  line-height: 1;
+  font-size: 9vw;
+  /* font-family: "General Sans Medium"; */
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.boundary {
+  width: fit-content;
+  overflow: hidden;
+}
+.boundary .boundeingelement {
+  transform: translateY(100%);
+}
+#heading #secondh1 {
+  margin-left: 10.4rem;
+}
+.blogtext {
+  width: fit-content;
+}
+.blogtext h5 {
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.buttom-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 4vw;
+  /* padding-right: 4rem; */
+}
+.buttom-heading h5 {
+  margin-top: 0.5vw;
+  font-size: 1vw;
+  text-transform: uppercase;
+}
+
+.hero-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8rem;
+  width: 100%;
+  bottom: 3%;
+}
+.hero-footer-text {
+  display: flex;
+  flex-direction: column;
+}
+#iconset {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+#iconset .carcle {
+  height: 2rem;
+  width: 2rem;
+  background: white;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  line-height: 2rem;
+}
+#iconset .carcle:last-child {
+  margin-right: 0.5rem;
+}
+#iconset .carcle i {
+  color: black;
+  font-weight: 800;
+  padding: 0.5rem;
+}
+.hero-footer-text a {
+  text-transform: uppercase;
+}
+
+/* second section */
+#second {
+  width: 100%;
+  background-color: black;
+  padding-top: 5vw;
+  padding-right: 10vw;
+  color: white;
+}
+.element {
+  position: relative;
+
+  width: 100%;
+  border-top: 0.05rem solid #888;
+  padding: 2vw 1vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.element h1 {
+  text-transform: uppercase;
+  font-size: 7vw;
+  opacity: 0.7;
+}
+.element:last-child {
+  border-bottom: 0.05rem solid #888;
+}
+.element img {
+  height: 140%;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+.element:hover img {
+  display: block;
+}
+
+/*  */
+#about {
+  width: 100%;
+  padding: 10vw 5vw;
+  padding-left: 35vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+#imageabout img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+#textabout {
+  color: white;
+}
+#textabout h5 {
+  font-size: 1rem;
+  opacity: 0.7;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+#textabout button {
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  background: transparent;
+  color: white;
+  border: 0.08rem solid white;
+  border-radius: 3rem;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  transition: all ease-in-out 0.2s;
+}
+#textabout button:hover {
+  border: 1px solid transparent;
+  background: white;
+  color: black;
+}
+#subscribe {
+  color: white;
+  padding: 2rem 0;
+}
+#subscribe h5 {
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+#footer {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+#footer div {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+#footer div h5 {
+  font-size: 1.1rem;
+}
+#footer div:last-child h5 {
+  text-transform: uppercase;
+}
