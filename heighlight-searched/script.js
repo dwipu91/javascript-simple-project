@@ -20,7 +20,6 @@ function search() {
   // Escape special RegExp characters
   textToSearch = textToSearch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-  // Create a dynamic regular expression
   let pattern = new RegExp(textToSearch, "gi");
 
   // Replace matched text with <mark>...</mark>

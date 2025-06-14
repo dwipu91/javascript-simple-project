@@ -43,6 +43,5 @@ body {
   border-radius: 0.3rem;
 }
 .paragraph {
-  color: #1b1464;
   color: drop-shadow(1mm -1mm 2mm #c4e538);
 }
